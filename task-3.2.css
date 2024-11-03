@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    margin: auto;
+    margin-top: 90px;
+    box-shadow: 0 0 4px burlywood;
+    width: 70%;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+.carousel{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.btn{
+    text-align: center;
+    margin-top: 15px;
+    margin: 10px;
+    border-radius: 8px;
+}
+.btn button{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    background-color: rgb(110, 179, 93);
+}
+.btn button:hover{
+    background-color: darkgreen;
+}

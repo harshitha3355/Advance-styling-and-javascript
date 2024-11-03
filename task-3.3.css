@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'font';
+    src: url(/PlaywriteGBS-ExtraLight.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'font';
+    font-size: 100px;
+    text-align: center;
+    margin-bottom:50px ;
+}
+body{
+    font-family: 'font', 'Times New Roman';
+    font-size: 20px;
+    background-image: url(https://i.pinimg.com/564x/b2/b2/b3/b2b2b38ff9505535e7db0ed20a3cd936.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+.content{
+    margin: 50px auto;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+}
+.qcontainer{
+    border: 3px solid midnightblue;
+    background-color: white;
+    border-radius: 28px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+#quote{
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
+#author{
+    align-self: center;
+    color: goldenrod;
+    font-size: medium;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 10px;
+}
+#btn{
+    align-self: center;
+    border:  3px solid midnightblue;
+    border-radius: 28px;
+    font-family: 'font', 'Times New Roman';
+    background-color: white;
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+}
